@@ -20,8 +20,8 @@ declare
 
 
 
-	set @p_additionalParamasXML=N'<Parameters><uko_id>290</uko_id></Parameters>' ---- UKO_ID
-	set @p_import_filepath=N'D:\BS\ImportNowegoPakietu_115.xls'        ---- SCIE¯KA DO PLIKU
+	set @p_additionalParamasXML=N'<Parameters><uko_id>303</uko_id></Parameters>' ---- UKO_ID
+	set @p_import_filepath=N'D:\BS\ImportNowegoPakietu_5022.xls'        ---- SCIE¯KA DO PLIKU
 
 
 
@@ -570,3 +570,4 @@ select [ex_rb_nr], 'istnieje rola bez dluznika g³ównego' from #ImportExcelRole w
 			return
 		END
 
+end
