@@ -33,4 +33,3 @@ insert into dm_data_bps..rezultat
 ([re_ak_id],[re_data_planowana], [re_us_id_planujacy], [re_data_wykonania], [re_us_id_wykonujacy], [re_konczy])
 select ak_id, GETDATE(), 5, GETDATE(), 5, 1 from #ak_id
 
-
