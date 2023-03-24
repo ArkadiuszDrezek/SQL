@@ -1,4 +1,4 @@
---opis - dodatkowe info
+
 ;with powiadomienia_dlugi_info as (
 select
 s.sp_numer,
@@ -44,3 +44,4 @@ join rezultat r2 on max_rez.max_re_id=r2.re_id
 select distinct pdi.sp_numer as nr_sprawy, pdi.akt_nazwa as powiadomienie_dlugi_info, pdi.data_wyslania as data_wyslania_powiadomienia, wp.akt_nazwa as nazwa_pisma, wp.pwsz_sciezka, wp.data_wyslania as data_wyslania_pisma from powiadomienia_dlugi_info pdi
 join wszystkie_pisma wp on pdi.sp_id=wp.sp_id and wp.ak_id>pdi.ak_id
 
+--opis
