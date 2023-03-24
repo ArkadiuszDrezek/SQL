@@ -1,4 +1,4 @@
-
+--Zestawienie dla Asi
 ;with powiadomienia_dlugi_info as (
 select
 s.sp_numer,
